@@ -17,7 +17,7 @@ export default function ChatWidget() {
   const reply = (t) => {
     const s = t.toLowerCase();
     if (s.includes("breakfast"))  return "Try Idli Sambar or Masala Oats — light & energizing!";
-    if (s.includes("vegan"))      return "Chana Salad and Dal Khichdi fit perfectly.";
+    if (s.includes("vegan"))      return "Idli and Dal Khichdi fit perfectly.";
     if (s.includes("protein"))    return "Paneer Tikka Bowl or Grilled Chicken Thali are protein-packed.";
     if (s.includes("budget") || s.includes("cheap")) return "Meals start at ₹99. Idli Sambar is a great pick!";
     return "You can say things like: 'vegan', 'high protein', or 'breakfast'.";

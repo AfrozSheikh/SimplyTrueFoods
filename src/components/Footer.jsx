@@ -8,17 +8,17 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold text-lg">SimplyTrueFoods</h4>
           <p className="text-white/80 mt-2">
-            Healthy Indian meals for today’s professionals.
+            Eat . Live. Simply.
           </p>
         </div>
         <div>
           <h5 className="font-semibold">Contact</h5>
-          <p className="text-white/80 mt-2">support@simplytruefoods.in</p>
-          <p className="text-white/80">+91 98xx-xx-xxxx</p>
+          <p className="text-white/80 mt-2">afrozsheikh1112@gmail.com</p>
+          <p className="text-white/80">+91 9766432374</p>
         </div>
         <div>
           <h5 className="font-semibold">Timings</h5>
-          <p className="text-white/80 mt-2">Mon-Sun • 8am – 11pm</p>
+          <p className="text-white/80 mt-2">Mon-Sun •24 Hrs</p>
         </div>
         <div>
           <h5 className="font-semibold">Social</h5>
