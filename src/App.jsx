@@ -12,7 +12,6 @@ export default function App() {
   const text = "Deeveloped with ❤️ by Afroz....";
 
   useEffect(() => {
-    
     let index = 0;
     const typing = setInterval(() => {
       setDisplayText((prev) => prev + text[index]);
@@ -20,7 +19,6 @@ export default function App() {
       if (index >= text.length) clearInterval(typing);
     }, 100);
 
-    
     const timer = setTimeout(() => {
       setShowSplash(false);
     }, 3100);
@@ -53,20 +51,32 @@ export default function App() {
                 animation: neonPulse 1.5s infinite alternate;
               }
               .animate-fade-out {
-                animation: fadeOut 5s forwards;
+                animation: fadeOut 3.1s forwards;
               }
             `}
           </style>
         </div>
       ) : (
-        <>
+        <div className="animate-main-fade-in">
           <Navbar />
           <Hero />
           <WhyChooseUs />
           <Menu />
           <Footer />
           <ChatWidget />
-        </>
+
+          <style>
+            {`
+              @keyframes mainFadeIn {
+                from { opacity: 0; transform: translateY(10px); }
+                to { opacity: 1; transform: translateY(0); }
+              }
+              .animate-main-fade-in {
+                animation: mainFadeIn 0.8s ease-out forwards;
+              }
+            `}
+          </style>
+        </div>
       )}
     </>
   );

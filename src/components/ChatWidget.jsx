@@ -74,7 +74,7 @@ export default function ChatWidget() {
             />
             <button
               onClick={send}
-              className="px-3 py-2 rounded-lg bg-saffron text-white hover:bg-kesar transition"
+              className="px-3 py-2 border-1 rounded-lg bg-purple-300 font-bold text-black hover:bg-kesar transition"
             >
               Send
             </button>
