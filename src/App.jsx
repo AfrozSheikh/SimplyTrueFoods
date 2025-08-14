@@ -66,7 +66,7 @@ import Footer from "./components/Footer";
               <Menu />
               <Footer />
             </div>
-            {/* ChatWidget is now outside the main flow */}
+            
             <ChatWidget />
             <style>
               {`
