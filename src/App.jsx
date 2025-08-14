@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
   export default function App() {
     const [showSplash, setShowSplash] = useState(true);
     const [displayText, setDisplayText] = useState("");
-    const text = "Deeveloped with ❤️ by Afroz....";
+    const text = "Deeveloped with 🍕 by Afroz....";
   
     useEffect(() => {
       let index = 0;
