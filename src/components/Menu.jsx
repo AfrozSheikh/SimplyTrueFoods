@@ -24,7 +24,7 @@ export default function Menu() {
       className="bg-gradient-to-br from-black via-purple-900 to-black py-16"
     >
       <div className="max-w-7xl mx-auto px-4 md:px-6">
-        {/* Title + Search */}
+       
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-purple-300 drop-shadow-[0_0_5px_#a855f7]">
@@ -44,7 +44,7 @@ export default function Menu() {
           </div>
         </div>
 
-        {/* Tabs */}
+        
         <div className="mt-6 flex flex-wrap gap-2">
           {tabs.map((t) => (
             <button
@@ -61,7 +61,6 @@ export default function Menu() {
           ))}
         </div>
 
-        {/* Menu Items */}
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <article

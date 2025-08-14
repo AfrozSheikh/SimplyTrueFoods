@@ -20,7 +20,7 @@ export default function Navbar() {
           </span>
         </a>
 
-        {/* Desktop Menu */}
+       
         <ul className="hidden md:flex items-center gap-8 font-medium">
           {["Why Us", "Menu", "Contact"].map((item, idx) => (
             <li key={idx}>
@@ -42,7 +42,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        {/* Mobile Menu Toggle */}
+        
         <button
           aria-label="Toggle Menu"
           className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded hover:bg-purple-700/30 transition-all duration-300"
@@ -56,7 +56,7 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Dropdown */}
+  
       <div
         className={`md:hidden transition-all duration-300 ease-in-out ${
           open ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
